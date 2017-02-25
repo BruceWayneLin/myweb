@@ -1,0 +1,132 @@
+<?php
+// Heading
+$_['heading_title']         = '訂單';
+
+// Text
+$_['text_success']               = '更新成功';
+$_['text_list']                               = '訂單列表';
+$_['text_add']                                = '新增訂單列表';
+$_['text_edit']                               = '編輯訂單列表';
+$_['text_order_detail']                       = '訂單細節';
+$_['text_customer_detail']       = '會員資料';
+$_['text_option']                = '選項';
+$_['text_store']                 = '商店';
+$_['text_date_added']         = '購買日期';
+$_['text_payment_method']     = '付款方式';
+$_['text_shipping_method']    = '配送方式';
+$_['text_customer']           = '會員';
+$_['text_customer_group']     = '會員群組';
+$_['text_email']              = '電子郵件';
+$_['text_telephone']          = '電話';
+$_['text_invoice']            = '發票';
+$_['text_reward']             = '紅利點數';
+$_['text_affiliate']          = '推薦會員';
+$_['text_order']                 = '訂單細節 ';
+$_['text_payment_address']       = '付款地址';
+$_['text_shipping_address']      = '配送地址';
+$_['text_comment']               = '訂單備註';
+$_['text_history']               = '訂單紀錄';
+$_['text_history_add']                            = '新增紀錄';
+$_['text_account_custom_field']  = '會員資料自訂欄位';
+$_['text_payment_custom_field']  = '付款地址自訂欄位';
+$_['text_shipping_custom_field'] = '配送地址自訂欄位';
+$_['text_browser']               = '瀏覽器';
+$_['text_ip']                    = 'IP ';
+$_['text_forwarded_ip']          = '轉向IP';
+$_['text_user_agent']            = '作業系統及瀏覽器類型';
+$_['text_accept_language']                    = '瀏覽器語系';
+$_['text_order_id']                           = '訂單編號';
+$_['text_fax']                = '傳真';
+$_['text_website']                            = '網站';
+$_['text_invoice_no']       = '發票號碼';
+$_['text_invoice_date']       = '發票日期';
+$_['text_sku']                                = 'SKU編碼';
+$_['text_upc']                                = 'UPC編碼';
+$_['text_ean']                                = 'EAN編碼';
+$_['text_jan']                                = 'JAN編碼';
+$_['text_isbn']                               = 'ISBN編碼';
+$_['text_mpn']                                = 'MPN編碼';
+$_['text_missing']                            = '缺少訂單';
+$_['text_default']            = '預設';
+$_['text_product']                            = '新增商品';
+$_['text_voucher']                            = '新增購物禮券';
+$_['text_shipping']                           = '配送';
+$_['text_contact']                            = '聯絡';
+$_['text_reward_added']                       = '成功加入';
+$_['text_reward_removed']                     = '成功移除';
+$_['text_commission_added']                   = '成功加入獎金';
+$_['text_commission_removed']                 = '成功移除獎金';
+$_['text_restock']                            = '商品已到貨';
+$_['text_upload']                             = '成功上傳檔案';
+$_['text_picklist']                           = 'Dispatch Note';
+
+// Column
+$_['column_order_id']          = '訂單號碼';
+$_['column_customer']           = '會員名稱';
+$_['column_status']         = '狀態';
+$_['column_date_added']     = '購買日期';
+$_['column_date_modified']    = '修改日期';
+$_['column_total']          = '總計';
+$_['column_product']        = '商品';
+$_['column_model']          = '型號';
+$_['column_quantity']       = '數量';
+$_['column_price']          = '單價';
+$_['column_comment']        = '備註';
+$_['column_notify']         = '通知會員';
+$_['column_location']                         = '地點';
+$_['column_reference']                        = '參考';
+$_['column_action']         = '動作';
+$_['column_weight']                           = '重量';
+
+// Entry
+$_['entry_store']      = '商店名稱';
+$_['entry_customer']        = '會員';
+$_['entry_customer_group']    = '會員群組';
+$_['entry_firstname']       = '名字';
+$_['entry_lastname']        = '姓氏';
+$_['entry_email']           = '電子郵件';
+$_['entry_telephone']       = '電話';
+$_['entry_fax']             = '傳真';
+$_['entry_address']           = '地址';
+$_['entry_company']         = '公司';
+$_['entry_address_1']       = '地址 1';
+$_['entry_address_2']       = '地址 2';
+$_['entry_city']            = '城市';
+$_['entry_postcode']        = '郵遞區號';
+$_['entry_country']         = '國家';
+$_['entry_zone']            = '地區或省';
+$_['entry_zone_code']       = '地區或省的代碼';
+$_['entry_product']  		= '商品名稱';
+$_['entry_option']            = '選擇選項';
+$_['entry_quantity']          = '數量';
+$_['entry_to_name']                           = '收件人名稱';
+$_['entry_to_email']                          = '收件人的電子郵件';
+$_['entry_from_name']                         = '寄件人名稱';
+$_['entry_from_email']                        = '寄件人的電子郵件';
+$_['entry_theme']                             = '禮券樣式';
+$_['entry_message']                           = '留言';
+$_['entry_amount']                            = '金額';
+$_['entry_affiliate']                         = '推薦會員姓名';
+$_['entry_order_status']                      = '訂單狀態';
+$_['entry_notify']                            = '通知會員';
+$_['entry_override']             = '覆寫';
+$_['entry_comment']                           = '備註';
+$_['entry_currency']           = '貨幣';
+$_['entry_shipping_method']                   = '配送方式';
+$_['entry_payment_method']                    = '付款方式';
+$_['entry_coupon']                            = '優惠券代碼';
+$_['entry_voucher']                           = '購物禮券代碼';
+$_['entry_reward']                            = '紅利點數';
+$_['entry_order_id']                          = '訂單編號';
+$_['entry_total']                             = '總計';
+$_['entry_date_added']                        = '購買日期';
+$_['entry_date_modified']                     = '修改日期';
+
+// Help
+$_['help_override']              = '如果訂單無法更改訂單狀態，原因可能是開啟了這個選項 ';
+
+// Error
+$_['error_warning']                           = '發生錯誤，請再確認!';
+$_['error_permission']                        = '您沒有權限更改訂單的設置!';
+$_['error_action']               = '尚未完成!';
+$_['error_filetype']			 = '錯誤的檔案類型!';

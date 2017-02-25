@@ -1,0 +1,417 @@
+div.jungwei {
+	color: rgba(255, 255, 255, 0.5);
+	font-size: 76px;
+	font-weight: 600;
+	text-align: center;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
+	text-transform: uppercase;
+	top: 100px;
+	z-index: 3;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	/*width: auto;*/
+}
+
+@media (max-width: 767px) {
+	a#about-word {
+		font-size : 25px;
+	}
+}
+
+@media (max-width: 767px) {
+	span.intro-text {
+		font-size : 45px;
+		color: rgba(255, 255, 255, 0.5);
+	}
+}
+
+@media (max-width: 715px) {
+	div.col-lg-12.jungwei-content {
+		font-size : 16px!important;
+	}
+}
+
+a.border-words {
+	float: left;
+	border: 3px solid #FFFFFF;
+	padding: 0px 10px;
+	text-align: center;
+}
+
+div.col-lg-12.jungwei-content {
+	font-size: 23px;
+	margin-top: 20px;
+	text-align: left;
+}
+
+
+img.img-responsive.img-circle.jungwei-pic {
+	border-radius:35%;
+}
+
+div.text-center.footer {
+	margin-top: 300px;
+	margin-bottom: 70px;
+}
+
+div.col-lg-6.jungwei-item.text-left {
+padding-top: 25px;
+padding-bottom: 25px;
+height: 450px;
+margin-left: 5px;
+background-color: rgba(0, 0, 0, 0.65);
+color: white;
+}
+div#me.container-fluid {
+padding: 50px;
+background-position: 30% 70%;
+background-size: cover;
+}
+
+div.row.logos {
+    padding-top: 150px;
+}
+h2#person {
+    font-weight: bold;
+    font-family: 微軟正黑體, Microsoft JhengHei, Microsoft JhengHei;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: #00313C;
+    border: solid 3px #daa100;
+    box-shadow: 0px 0px 19px -9px #000;
+    top: 0px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 16px;
+    color: #fff;
+    margin: 0px auto;
+}
+span.intro-text {
+font-family: "Times New Roman", "游明朝", YuMincho, "Hiragino Mincho ProN", Meiryo, serif;
+}
+
+a#about-word{
+   color: white;
+}
+.contacth2 {
+   margin-top: 150px;
+}
+div.row.img {
+ padding-top: 115px;
+
+ position:relative;
+}
+
+img.img-responsive.center-block {
+ margin-top: 20px;
+ margin-bottom: 40px;
+ }
+ 
+div.spacebook {
+  background-image: url("/img/spacebook.png");
+  height: auto;
+  /* fix background */
+  background-attachment: fixed;
+  /* center it */
+  background-position: center center;
+  /* Scale it nicely to the element */
+  background-size: cover;
+  /* just make it look a bit better ;) */
+
+ }
+ 
+div.earth {
+  background-image: url("/img/earth.png");    
+  height: auto;
+  /* fix background */
+  background-attachment: fixed;
+  /* center it */
+  background-position: center center;
+  /* Scale it nicely to the element */
+  background-size: cover;
+  /* just make it look a bit better ;) */
+  &:nth-child(2n) {
+    box-shadow: inset 0 0 1em #111;
+  }
+ }
+ 
+ img.rocket.img-responsive {
+  position: absolute;
+  left: 50%;
+ }
+ 
+  img.rocket.img-responsive.shoot{
+  position: absolute;
+  left: 50%;
+  -moz-animation: shoot 25s infinite; 
+  -webkit-animation: shoot 25s infinite; /* Chrome, Safari, Opera */
+  -moz-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+ }
+ 
+@-webkit-keyframes shoot {
+    0%   {bottom: -7000px;}
+   100% {bottom: 700px;}
+}
+
+button#shoot {
+    margin: 5px;
+}
+button#reboot {
+    margin: 5px;
+}
+
+.box {
+    width: 300px;
+    height: 460px;
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+    color: #ffffff;
+    box-shadow: inset 0 0 0 3px #2c3e50;
+    -webkit-transition: background 0.4s 0.5s;
+    transition: background 0.4s 0.5s;
+}
+
+@media (max-width: 480px) {
+	.box {
+		padding-right : 11px!important;
+	}
+}
+
+.box:hover {
+    background: rgba(255,255,255,0);
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.box h3 {
+    font-family: "Ruthie", cursive;
+    font-size: 180px;
+    line-height: 273px;
+    margin: 0;
+    font-weight: 400;
+    width: 100%;
+}
+
+.box span {
+    display: block;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 13px;
+    padding: 5px;
+}
+
+.box h3,
+.box span {
+    -webkit-transition: color 0.4s 0.5s;
+    transition: color 0.4s 0.5s;
+}
+
+.box:hover h3,
+.box:hover span {
+    color: #fff;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.box svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.box svg line {
+    stroke-width: 3;
+    stroke: #ecf0f1;
+    fill: none;
+    -webkit-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+}
+
+.box:hover svg line {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.box svg line.top,
+.box svg line.bottom {
+    stroke-dasharray: 330 240;
+}
+
+.box svg line.left,
+.box svg line.right {
+    stroke-dasharray: 490 400;
+}
+
+.box:hover svg line.top {
+    -webkit-transform: translateX(-600px);
+    transform: translateX(-600px);
+}
+
+.box:hover svg line.bottom {
+    -webkit-transform: translateX(600px);
+    transform: translateX(600px);
+}
+
+.box:hover svg line.left {
+    -webkit-transform: translateY(920px);
+    transform: translateY(920px);
+}
+
+.box:hover svg line.right {
+    -webkit-transform: translateY(-920px);
+    transform: translateY(-920px);
+}
+
+/* Alternatives */
+
+/* Color */
+.demo-2 .box {
+    box-shadow: inset 0 0 0 10px #2c3e50;
+}
+
+.demo-2 .box:hover h3,
+.demo-2 .box:hover span {
+    color: #fe6f83;
+}
+
+.demo-2 .box svg line {
+    stroke-width: 8;
+}
+
+.demo-2 .box:hover svg line {
+    stroke: #fe6f83;
+}
+
+/* Frame */
+.demo-3 .box {
+    background: rgba(0,0,0,0);
+    color: #fff;
+    box-shadow: none;
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
+}
+
+.demo-3 .box:hover {
+    background: rgba(0,0,0,0.4);
+}
+
+.demo-3 .box h3,
+.demo-3 .box span {
+    -webkit-transition: none;
+    transition: none;
+}
+
+.demo-3 .box svg line {
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.demo-3 .box:hover svg line {
+    stroke-width: 10;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.demo-3 .box:hover svg line.top {
+    -webkit-transform: translateX(-300px);
+    transform: translateX(-300px);
+}
+
+.demo-3 .box:hover svg line.bottom {
+    -webkit-transform: translateX(300px);
+    transform: translateX(300px);
+}
+
+.demo-3 .box:hover svg line.left {
+    -webkit-transform: translateY(460px);
+    transform: translateY(460px);
+}
+
+.demo-3 .box:hover svg line.right {
+    -webkit-transform: translateY(-460px);
+    transform: translateY(-460px);
+}
+
+/* Spin */
+.demo-4 .box {
+    box-shadow: none;
+    background: rgba(0,0,0,0.4);
+    -webkit-transition: none;
+    transition: none;
+    color: #fff;
+}
+
+.demo-4 .box h3,
+.demo-4 .box span {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: -webkit-transform 0.5s;
+    transition: transform 0.5s;
+}
+
+.demo-4 .box:hover h3,
+.demo-4 .box:hover span {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.demo-4 .box svg line {
+    stroke-width: 30;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+}
+
+.demo-4 .box:hover svg line {
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.demo-4 .box:hover svg line {
+    stroke-width: 0;
+}
+
+.demo-4 .box svg line.top,
+.demo-4 .box svg line.bottom {
+    stroke-dasharray: 300;
+}
+
+.demo-4 .box svg line.left,
+.demo-4 .box svg line.right {
+    stroke-dasharray: 460;
+}
+
+.demo-4 .box:hover svg line.top {
+    -webkit-transform: translateX(-300px);
+    transform: translateX(-300px);
+}
+
+.demo-4 .box:hover svg line.bottom {
+    -webkit-transform: translateX(300px);
+    transform: translateX(300px);
+}
+
+.demo-4 .box:hover svg line.left {
+    -webkit-transform: translateY(460px);
+    transform: translateY(460px);
+}
+
+.demo-4 .box:hover svg line.right {
+    -webkit-transform: translateY(-460px);
+    transform: translateY(-460px);
+}
+
+h1 {
+    color: #fff;
+}
+
+#portrait {
+	cursor: pointer;
+}

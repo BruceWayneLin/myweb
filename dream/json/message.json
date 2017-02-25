@@ -1,0 +1,60 @@
+{
+  "ReturnCode": "00",
+  "Result": {
+    "Icons":[
+      "./css/images/emo-icon/icon4.png",
+      "./css/images/emo-icon/love.png",
+      "./css/images/emo-icon/icon1.png",
+      "./css/images/emo-icon/icon2.png",
+      "./css/images/emo-icon/icon3.png",
+      "./css/images/emo-icon/face1.png"
+    ],
+    "ShareMessage":[
+      {
+        "MessageID": 0,
+        "ShareID": 1,
+        "UserID" : "test@gmail.com",
+        "UserNickName": "生煎包",
+        "UserPhotoLink": "./img/por1.gif",
+        "Message": "食神好棒呀！",
+        "MessageDate": "2016-10-01 12:45:50"
+      },
+      {
+        "MessageID": 0,
+        "ShareID": 5,
+        "UserID" : "test@gmail.com",
+        "UserNickName": "彈頭",
+        "UserPhotoLink": "./img/por2.jpeg",
+        "Message": "那還用說！",
+        "MessageDate": "2016-10-01 12:45:50"
+      },
+      {
+        "MessageID": 0,
+        "ShareID": 4,
+        "UserID" : "test@gmail.com",
+        "UserNickName": "黃猿",
+        "UserPhotoLink": "./img/por5.jpeg",
+        "Message": "真是猜不透你呀！",
+        "MessageDate": "2016-10-01 12:45:50"
+      },
+      {
+        "MessageID": 0,
+        "ShareID": 3,
+        "UserID" : "test@gmail.com",
+        "UserNickName": "赤拳",
+        "UserPhotoLink": "./img/por4.jpeg",
+        "Message": "食神好棒呀！",
+        "MessageDate": "2016-10-01 12:45:50"
+      },
+      {
+        "MessageID": 0,
+        "ShareID": 2,
+        "UserID" : "test@gmail.com",
+        "UserNickName": "スネ夫",
+        "UserPhotoLink": "./img/por3.jpeg",
+        "Message": "只要有心人人都是食神！",
+        "MessageDate": "2016-10-01 12:45:50"
+      }
+    ]
+  }
+}

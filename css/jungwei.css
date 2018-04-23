@@ -1,3 +1,4 @@
+
 div.jungwei {
 	color: rgba(255, 255, 255, 0.5);
 	font-size: 76px;
@@ -110,7 +111,7 @@ img.img-responsive.center-block {
  }
  
 div.spacebook {
-  background-image: url("/img/spacebook.png");
+  background-image: url("../img/spacebook.png");
   height: auto;
   /* fix background */
   background-attachment: fixed;
@@ -123,7 +124,7 @@ div.spacebook {
  }
  
 div.earth {
-  background-image: url("/img/earth.png");    
+  background-image: url("../img/earth.png");    
   height: auto;
   /* fix background */
   background-attachment: fixed;
@@ -414,4 +415,38 @@ h1 {
 
 #portrait {
 	cursor: pointer;
+}
+
+#page-top .navbar.navbar-default.navbar-fixed-top {
+    background-color: transparent!important;
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: white;
+}
+
+.navbar-default .navbar-nav>li.active>a{
+    color: #424b4d!important;
+    background-color: white;
+}
+
+.navbar-default .navbar-nav>li>a, .navbar-brand.page-scroll {
+    color: white!important;
+}
+
+#movieBak {
+    background: url('../img/moveGif.gif') no-repeat center;
+    background-size: cover;
+    opacity: 0.2;
+    min-height: 300px;
+    position: relative;
+    top: 50px;
+}
+.intro-text h1 {
+    color: white;
+    position: relative;
+    z-index: 999;
 }

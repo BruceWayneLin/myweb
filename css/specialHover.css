@@ -99,8 +99,12 @@ body{
     transform:rotateX(-270deg) translateY(-50px);
     transform-origin: left top;
   }
+
+  .cube:hover{
+    cursor: pointer!important;
+  }
   
-  /* hover transformations */
+  /* hover transformations
   .cube:hover{
     top:150px;
   }
@@ -110,4 +114,4 @@ body{
   }
   .cube:hover i{
     top:-200px;
-  }
+  } */

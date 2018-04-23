@@ -38,7 +38,7 @@ body{
     font-size:20px;
     text-align:center;
     line-height:200px;
-    color:rgba(0,0,0,0.5);
+    color: white;
     font-family:sans-serif;
     text-transform:uppercase;
     transition: all 1s linear;
@@ -74,7 +74,8 @@ body{
     width:100px;
     height:100px;
     display:block;
-    background:url(http://i45.tinypic.com/muxvt1.png);
+    background:url(../img/ghost.gif) no-repeat;
+    background-size: cover;
     transition: all 1s linear;
   }
   i.front{

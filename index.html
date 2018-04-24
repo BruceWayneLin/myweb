@@ -75,25 +75,35 @@
 </nav>
 
 <!-- Intro Section -->
-<section id="intro" class="intro-section">
-	<div class="container-fluid">
-		<div class="row img">
-			<div class="col-lg-12 intro-text">
-				<img id="portrait" class="img-responsive img-circle center-block jungwei-pic" src="img/marine.gif" alt="jungwei" />
-				<audio id="audio" controls preload="auto" class="hidden">
-					<source src="audio/scv.mp3" type="audio/mp3" />
-				</audio>
-				<h1>Jung-wei, Lin</h1>
+<section id="intro" class="intro-section" style="z-index:2;position:relative;background-color:transparent;">
+		<div class="container-fluid">
+			<div class="row img">
+				<div class="col-lg-12 intro-text">
+					<img id="portrait" class="img-responsive img-circle center-block jungwei-pic" src="img/marine.gif" alt="jungwei" />
+					<audio id="audio" controls preload="auto" class="hidden">
+						<source src="audio/scv.mp3" type="audio/mp3" />
+					</audio>
+					<main>
+						<div class="pulser"></div>
+						<div class="pulser"></div>
+						<div class="pulser"></div>
+						<div class="pulser"></div>
+						<div class="pulser"></div>
+						<div class="pulser"></div>
+						<div class="pulser"></div>
+					</main>
+						<h1>Jung-wei, Lin</h1>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="col-lg-12 jungwei">
+					<!--<span class="intro-text"  data-anijs="if: scroll, on: window, do: zoomOutLeft animated">最弱の前端伝説</span>-->
+					<a href="#timeline" id="about-word" class="glyphicon glyphicon-download page-scroll" data-anijs="if: mouseover, on: window, do: bounce animated">
+					</a>
+				</div>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-lg-12 jungwei">
-				<!--<span class="intro-text"  data-anijs="if: scroll, on: window, do: zoomOutLeft animated">最弱の前端伝説</span>-->
-				<a href="#timeline" id="about-word" class="glyphicon glyphicon-download page-scroll" data-anijs="if: mouseover, on: window, do: bounce animated">
-				</a>
-			</div>
-		</div>
-	</div>
 </section>
 
 <!-- Timeline zone-->
@@ -123,6 +133,7 @@
 							</div>
 							<div class="cntl-icon cntl-center">2010/4</div>
 						</div>
+						
 						<div class="cntl-state">
 							<div class="cntl-content">
 								<div class="box">
@@ -239,7 +250,7 @@
 							</div>
 
 							<!--<div class="cntl-image"><img src=""></div>-->
-							<div class="cntl-icon cntl-center">2017</div>
+							<div class="cntl-icon cntl-center">2018</div>
 						</div>						
 					</div>
 				</div>
@@ -318,12 +329,12 @@
 					<div class="col-sm-6">
 						<a href="http://jungwei.com.tw/protoVersion1/" target="_blank" class="portfolio-link" data-toggle="modal">
 							<div class="wrapper">
-								<div class="cube">
+								<div id="cubeOne" class="cube">
 									<b class="front">Click</b>
 									<b class="back">Me</b>
 									<b class="top">To</b>
 									<b class="bottom">See</b>
-									<b class="left">Project1</b>
+									<b class="left">機車險Prototype</b>
 									<b class="right">クリックしてください</b>
 									<i class="front"></i>
 									<i class="back"></i>
@@ -336,9 +347,24 @@
 						</a>
 					</div>
 					<div class="col-sm-6">
-						<a href="http://www.bamahome.com.tw" class="portfolio-link" data-toggle="modal">
-							<img src="img/bamahome.png" class="img-responsive center-block" alt="" data-anijs="if: scroll, on: window, do: rotateIn animated, before: $scrollReveal">
-						</a>
+							<a href="https://www.bamahome.com.tw/" target="_blank" class="portfolio-link" data-toggle="modal">
+								<div class="wrapper">
+									<div class="cube">
+										<b class="front">Click</b>
+										<b class="back">Me</b>
+										<b class="top">To</b>
+										<b class="bottom">See</b>
+										<b class="left">BamaHome</b>
+										<b class="right">クリックしてください</b>
+										<i id="F" class="front"></i>
+										<i id="B" class="back"></i>
+										<i id="T" class="top"></i>
+										<i id="M" class="bottom"></i>
+										<i id="L" class="left"></i>
+										<i id="R" class="right"></i>
+									</div>
+								</div>
+							</a>
 					</div>
 				</div>
 			</div>
@@ -381,6 +407,7 @@
 						</a>
 					</div>
 					<div class="col-sm-6">
+							
 						<!--<a href="http://www.mittag.com.tw" class="portfolio-link" data-toggle="modal">-->
 							<!--<img src="img/mittag.png" class="img-responsive center-block" alt="" data-anijs="if: scroll, on: window, do: rollIn animated, before: $scrollReveal">-->
 							<!--<span style="color:white;">測試階段，未開放。not released yet on the market</span>-->
@@ -405,6 +432,9 @@
 			<div class="col-lg-8 col-lg-offset-2">
 				<!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
 				<!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+				<div class="planet">
+						<div class="texture"></div>
+				</div>
 				<form name="sentMessage" id="contactForm">
 					<div class="row control-group">
 						<div class="form-group col-xs-12 floating-label-form-group controls">
@@ -447,9 +477,8 @@
 		</div>
 	</div>
 </section>
-<div class="rocket">
+<div class="rocket" style="z-index:999;">
 	<img src="img/rocket.png" class="rocket img-responsive" />
-
 </div>
 
 <!-- Footer -->
@@ -484,6 +513,7 @@
 <script src="js/scrolling-nav.js"></script>
 <script src="js/anijs-min.js"></script>
 <script src="js/anijs-helper-scrollreveal-min.js"></script>
+<script src="js/jungwei.js"></script>
 
 <!-- Contact Form JavaScript -->
 <script src="js/jqBootstrapValidation.js"></script>

@@ -1,11 +1,12 @@
-body{
-    background:url(http://i45.tinypic.com/2i2255j.png);
-  }
-  
   /* keyframes for rotating animation */
   @-webkit-keyframes spin {
     from { transform: rotateY(0); }
     to   { transform: rotateY(360deg); }
+  }
+
+  @-webkit-keyframes spinReverse {
+    from { transform: rotateX(0); }
+    to   { transform: rotateX(360deg); }
   }
   
   /* scene wrapper */
@@ -26,7 +27,11 @@ body{
     animation: spin 4s infinite linear;
     transition: all 1s linear;
   }
-  
+
+  #cubeOne > b {
+      color:black;
+  }
+
   /* outer cube */
   b{
     position:absolute;
@@ -73,8 +78,9 @@ body{
     left:50px;
     width:100px;
     height:100px;
-    display:block;
-    background:url(../img/ghost.gif) no-repeat;
+    display: block;
+    /* background:url(../img/ghost.gif) no-repeat; */
+    background-color: #ffffff66;
     background-size: cover;
     transition: all 1s linear;
   }
@@ -105,6 +111,10 @@ body{
     cursor: pointer!important;
   }
   
+  #F, #B, #T, #M, #L, #R {
+    background-color: #0027ff2b;
+  }
+
   /* hover transformations
   .cube:hover{
     top:150px;
@@ -116,3 +126,85 @@ body{
   .cube:hover i{
     top:-200px;
   } */
+                            
+  .pulser {
+    width: 30vmin;
+    height: 30vmin;
+    border-radius: 50%;
+    /* mix-blend-mode: screen; */
+    background: #d845787a;
+    position: absolute;
+    -webkit-transform-origin: 12vmin 48vmin;
+            transform-origin: 12vmin 48vmin;
+    -webkit-animation: filtered 10000ms 0ms infinite alternate linear;
+            animation: filtered 10000ms 0ms infinite alternate linear;
+    will-change: filter, transform;
+  }
+  
+  main {
+    /* width: 90vmin;
+    height: 90vmin;
+    position: relative; */
+    display: inline-flex;
+  }
+  
+  /* body {
+    background: #042739;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  } */
+  
+  /* * {
+    box-sizing: border-box;
+  } */
+  
+  @-webkit-keyframes filtered {
+    0% {
+      -webkit-filter: hue-rotate(0deg) blur(3vmin);
+              filter: hue-rotate(0deg) blur(3vmin);
+    }
+    100% {
+      -webkit-filter: hue-rotate(360deg) blur(20vmin);
+              filter: hue-rotate(360deg) blur(20vmin);
+    }
+  }
+  
+  @keyframes filtered {
+    0% {
+      -webkit-filter: hue-rotate(0deg) blur(3vmin);
+              filter: hue-rotate(0deg) blur(3vmin);
+    }
+    100% {
+      -webkit-filter: hue-rotate(360deg) blur(20vmin);
+              filter: hue-rotate(360deg) blur(20vmin);
+    }
+  }
+  
+.planet{
+        width:200px;
+        height:200px;
+        background:#07132f;
+        border-radius:150px;
+        position:absolute;
+        overflow:hidden;
+        box-shadow:0px 0px 55px rgba(20,100,255,0.7);
+        border:1px solid #0089dd;
+        border-right:none;
+        -webkit-transform:rotateZ(15deg);
+        transform:rotateZ(15deg)
+    }
+.planet:after{content:"";width:90px;height:100%;background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,0.9));position:absolute;right:0;}
+.planet:before{content:"";width:90px;height:100%;background: linear-gradient(to right, rgba(10,130,255,0.6), rgba(0,0,0,0));position:absolute;left:0;z-index:3;}
+.texture{position:absolute;left:-360px;-webkit-animation: rotation 30s linear infinite;animation: rotation 30s linear infinite;content: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/184191/earth_copy.jpg);height:320px;background-size:cover;}
+
+@keyframes rotation{
+  0%{left:-845px}
+  100%{left:-185px}
+}
+@-webkit-keyframes rotation{
+  0%{left:-845px}
+  100%{left:-185px}
+}

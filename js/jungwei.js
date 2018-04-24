@@ -41,9 +41,9 @@ $(document).ready(function(){
 
     var canvas = document.createElement('canvas');
     canvas.style.position = 'absolute';
-    canvas.style.top = '10px';
-    canvas.style.minHeight = '130%';
-    
+    canvas.style.top = '0px';
+    canvas.style.width = '100%';
+
     document.body.appendChild(canvas);
     
 	canvas.width = w;

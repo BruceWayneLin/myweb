@@ -29,7 +29,7 @@
   }
 
   #cubeOne > b {
-      color:black;
+      color:rgb(255, 255, 255);
   }
 
   /* outer cube */
@@ -80,7 +80,7 @@
     height:100px;
     display: block;
     /* background:url(../img/ghost.gif) no-repeat; */
-    background-color: #ffffff66;
+    background-color: #dd020266;
     background-size: cover;
     transition: all 1s linear;
   }
